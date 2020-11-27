@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/skin_topbar_bg_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="科技类"
+            android:textColor="@color/skin_text_white"
+            android:textSize="18sp" />
+<!--        <Button-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:id="@+id/map"></Button>-->
+
+    </RelativeLayout>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="115dp"-->
+<!--        android:background="#ffffff">-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+
+<!--    <LinearLayout-->
+<!--            android:id="@+id/elepre"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+<!--                <ImageView-->
+<!--                    android:layout_width="108dp"-->
+<!--                    android:layout_height="64dp"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    android:src="@drawable/elepre" />-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical">-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:paddingRight="50dp"-->
+<!--                    android:text="电子爱好者协会"-->
+<!--                    android:textColor="#222222"-->
+<!--                    android:textSize="16sp" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="成立于2003年,前身为福州大学电子实践队"/>-->
+<!--                    </LinearLayout>-->
+
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="9dp"-->
+<!--                android:gravity="center_vertical"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="16dp"-->
+<!--                    android:layout_height="16dp"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    android:src="@drawable/fzu_1" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="9dp"-->
+<!--                    android:text="现有成员人数:60"-->
+<!--                    android:textColor="#777777"-->
+<!--                    android:textSize="13sp" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="9dp"-->
+<!--                    android:text="社长:ABC"-->
+<!--                    android:textColor="#777777"-->
+<!--                    android:textSize="13sp" />-->
+
+<!--&lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/time"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginLeft="9dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:text=""&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textColor="#777777"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textSize="13sp" />&ndash;&gt;-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:background="#f1f1f1" />-->
+<!--&lt;!&ndash;    </RelativeLayout>&ndash;&gt;-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/elepk"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <ImageView-->
+<!--                android:layout_width="108dp"-->
+<!--                android:layout_height="64dp"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/elepk" />-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:paddingRight="50dp"-->
+<!--                    android:text="电子竞技协会"-->
+<!--                    android:textColor="#222222"-->
+<!--                    android:textSize="16sp" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="这是个机遇与挑战并存的时代, 电子竞技的未来靠我们自己创造"/>-->
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="9dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/header"-->
+<!--                android:layout_width="16dp"-->
+<!--                android:layout_height="16dp"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/fzu_1" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/author"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="9dp"-->
+<!--                android:text="现有成员人数:120"-->
+<!--                android:textColor="#777777"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/comment"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="9dp"-->
+<!--                android:text="社长:ABC"-->
+<!--                android:textColor="#777777"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:id="@+id/time"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_marginLeft="9dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:text=""&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textColor="#777777"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textSize="13sp" />&ndash;&gt;-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="#f1f1f1" />-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/eleidea"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <ImageView-->
+<!--                android:layout_width="108dp"-->
+<!--                android:layout_height="64dp"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/elepkidea" />-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:paddingRight="50dp"-->
+<!--                    android:text="机械电子科技创新协会"-->
+<!--                    android:textColor="#222222"-->
+<!--                    android:textSize="16sp" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="致力于组织,开展机械及电子方面科技创新活动和比赛的学生社团"/>-->
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="9dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="16dp"-->
+<!--                android:layout_height="16dp"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/fzu_1" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="9dp"-->
+<!--                android:text="现有成员人数:120"-->
+<!--                android:textColor="#777777"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="9dp"-->
+<!--                android:text="社长:ABC"-->
+<!--                android:textColor="#777777"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:id="@+id/time"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_marginLeft="9dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:text=""&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textColor="#777777"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textSize="13sp" />&ndash;&gt;-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="#f1f1f1" />-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/mathmodel"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <ImageView-->
+<!--                android:layout_width="108dp"-->
+<!--                android:layout_height="64dp"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/mathmodel" />-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:paddingRight="50dp"-->
+<!--                    android:text="数学建模协会"-->
+<!--                    android:textColor="#222222"-->
+<!--                    android:textSize="16sp" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="根据实际问题来建立数学模型，对数学模型来进行求解，然后根据结果去解决实际问题"/>-->
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="9dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="16dp"-->
+<!--                android:layout_height="16dp"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/fzu_1" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="9dp"-->
+<!--                android:text="现有成员人数:60"-->
+<!--                android:textColor="#777777"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="9dp"-->
+<!--                android:text="社长:ABC"-->
+<!--                android:textColor="#777777"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:id="@+id/time"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_marginLeft="9dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:text=""&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textColor="#777777"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textSize="13sp" />&ndash;&gt;-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="#f1f1f1" />-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/robot"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <ImageView-->
+<!--                android:layout_width="108dp"-->
+<!--                android:layout_height="64dp"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/robot" />-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:paddingRight="50dp"-->
+<!--                    android:text="机器人爱好者协会"-->
+<!--                    android:textColor="#222222"-->
+<!--                    android:textSize="16sp" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="工业机器人是面向工业领域的多关节机械手或多自由度的机器装置,它能自动执行工作,是靠自身动力和控制能力来实现各种功能的一种机器。"/>-->
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="9dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="16dp"-->
+<!--                android:layout_height="16dp"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/fzu_1" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="9dp"-->
+<!--                android:text="现有成员人数:60"-->
+<!--                android:textColor="#777777"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="9dp"-->
+<!--                android:text="社长:ABC"-->
+<!--                android:textColor="#777777"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:id="@+id/time"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_marginLeft="9dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:text=""&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textColor="#777777"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textSize="13sp" />&ndash;&gt;-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="#f1f1f1" />-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/weibo"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <ImageView-->
+<!--                android:layout_width="108dp"-->
+<!--                android:layout_height="64dp"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/icon_weibo" />-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:paddingRight="50dp"-->
+<!--                    android:text="微博协会"-->
+<!--                    android:textColor="#222222"-->
+<!--                    android:textSize="16sp" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="微协人始终秉承着为各福大人服务的理念——利用微博这个平台发布、转发各种个人、社团、部门资讯"/>-->
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="9dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="16dp"-->
+<!--                android:layout_height="16dp"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/fzu_1" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="9dp"-->
+<!--                android:text="现有成员人数:120"-->
+<!--                android:textColor="#777777"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="9dp"-->
+<!--                android:text="社长:ABC"-->
+<!--                android:textColor="#777777"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:id="@+id/time"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_width="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_marginLeft="9dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:text=""&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textColor="#777777"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textSize="13sp" />&ndash;&gt;-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="#f1f1f1" />-->
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
